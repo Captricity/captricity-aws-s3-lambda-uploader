@@ -86,7 +86,7 @@ exports.handler = function (event, context) {
                 var readStream = fs.createReadStream("/tmp/" + srcKey);
                 readStream.on('open', function (fd) {
 
-                    // uplaod the image to the BatchFile API
+                    // upload the image to the BatchFile API
                     request.post({
                             url: url,
                             headers: auth_headers,
