@@ -35,7 +35,7 @@ This is a reference project for integrating Amazon Web Services S3 to Captricity
 
 7 In the AWS IAM console create an AWS Lambda role with AWSLambdaExexcute policy and save the arn
 
-For the following commands, replacing <info needed> boxes with your information
+For the following commands, replacing \<info needed\> boxes with your information
 
 8 Upload your lambda function
 
