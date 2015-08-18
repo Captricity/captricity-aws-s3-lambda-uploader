@@ -19,13 +19,13 @@ This is a reference project for integrating Amazon Web Services S3 to Captricity
 
 2 Install [node.js and npm](https://docs.npmjs.com/getting-started/installing-node)
 
-3 Install node dependencies
-
-    npm install async request
-
-4 Change directory to captricity_uploader
+3 Change directory to captricity_uploader
 
     cd captricity_uploader;
+
+4 Install node dependencies
+
+    npm install async request
 
 5 Update `CaptricityUploader.js` with your Captricity API Token
 
