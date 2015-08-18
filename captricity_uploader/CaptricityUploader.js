@@ -103,7 +103,8 @@ exports.handler = function (event, context) {
                                 }
                                 next(null, body);
                             }
-                        });
+                        }
+                    );
                 })
             });
         }],
